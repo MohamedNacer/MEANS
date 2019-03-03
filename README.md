@@ -11,11 +11,30 @@ This example  contain three projects:
 
 # To start  FrontEnd project
 
-       ng serve -o
+inside the angular7crud folder, execute this command
+```
+ng serve -o
+```
+  - I am using bootstrap 4 css framework,rxjs-compat and ng2-slim-loading-bar library so may be you need to run these command
   
-  - I am using bootstrap 4 css framework, so may be you need to run this command 
-       
-       npm install bootstrap --save
-
-
+  ```
+ npm install bootstrap --save
+ npm install ng2-slim-loading-bar --save
+ npm install rxjs-compat --save
+ ```
+ 
+ # To start  BackEnd  and the Database projects
+ 
+ Open the terminal inside the api folder and type the following command
+  ```
+ npm init -y
+  ```
+  And this command to install related node module
+  ```
+ npm install --save express body-parser cors mongoose
+  ```
+ INstall MongoDB and type this command to start the DB server
+  ```
+ mongod
+ ```
 
